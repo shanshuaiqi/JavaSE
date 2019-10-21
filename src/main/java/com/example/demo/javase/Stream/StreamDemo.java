@@ -22,8 +22,10 @@ public class StreamDemo {
 
 	public static void main(String args[]){
 		List<String> strings = Arrays.asList("abc", "", "bc", "efg", "abcd","", "jkl");
-		List<String> filtered = strings.stream().filter(string -> !string.isEmpty()).collect(Collectors.toList());
-		System.out.println(filtered);
-		strings.forEach(e -> System.out.println(e));
+		List<String> filtered = strings.stream().filter(string -> !string.isEmpty() && string.length()>=4).collect(Collectors.toList());
+//		System.out.println(filtered);
+//		strings.forEach(e -> System.out.print(e+","));
+		List<String> filter2 = strings.stream().filter(s -> s.length()>2).collect(Collectors.toList());
+		filter2.forEach(e -> System.out.println(e));
 	}
 }

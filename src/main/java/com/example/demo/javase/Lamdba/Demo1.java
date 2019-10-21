@@ -3,8 +3,11 @@ package com.example.demo.javase.Lamdba;
 import java.util.function.Function;
 
 /**
- * 类功能描述
- *
+ * a.功能性接口：Function<T, R>
+ 有输入参数，有返回值
+ 是对接收一个T类型参数，返回R类型的结果的方法的抽象
+ 通过调用apply方法执行内容
+ 需求：给定一个字符串，返回字符串长度
  * @author ssq
  * @date 2019-10-21 下午 4:32
  */
