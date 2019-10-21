@@ -1,4 +1,4 @@
-package com.example.demo.javase.Lamdba;
+package com.example.demo.javase.lamdba;
 
 import java.util.function.Supplier;
 

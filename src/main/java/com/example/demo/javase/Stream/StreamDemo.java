@@ -1,4 +1,4 @@
-package com.example.demo.javase.Stream;
+package com.example.demo.javase.stream;
 
 import com.example.demo.javase.bean.User;
 
