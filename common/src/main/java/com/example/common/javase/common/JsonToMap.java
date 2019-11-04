@@ -1,4 +1,4 @@
-package com.example.demo.javase.common;
+package com.example.common.javase.common;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;

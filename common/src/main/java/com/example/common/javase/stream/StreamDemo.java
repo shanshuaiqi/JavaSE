@@ -1,6 +1,6 @@
-package com.example.demo.javase.stream;
+package com.example.common.javase.stream;
 
-import com.example.demo.javase.bean.User;
+import com.example.common.javase.bean.User;
 
 import java.time.Instant;
 import java.time.LocalDate;

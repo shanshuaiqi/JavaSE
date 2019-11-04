@@ -1,4 +1,4 @@
-package com.example.demo.project.auth.controller;
+package com.example.common.project.auth.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

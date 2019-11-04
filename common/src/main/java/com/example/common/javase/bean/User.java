@@ -1,4 +1,4 @@
-package com.example.demo.javase.bean;
+package com.example.common.javase.bean;
 
 import lombok.Data;
 
