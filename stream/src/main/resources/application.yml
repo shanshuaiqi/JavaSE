@@ -1,0 +1,23 @@
+server:
+  port: 36084
+stream-media:
+  #ffmpeg执行路径，一般为ffmpeg的安装目录，该路径只能是目录，不能为具体文件路径，否则会报错
+  path: E:/streaming_media/ffmpeg-20190303-4635f64-win64-static/bin/
+  #存放任务的默认Map的初始化大小
+  size: 5
+  #事件回调通知接口地址
+  callback: http://127.0.0.1/callback
+  #网络超时设置（毫秒）
+  timeout: 300
+  #开启保活线程
+  keepalive: true
+  #是否输出debug消息
+  debug: true
+  #以下为大华平台视频拉流配置
+  #http访问地址地址
+  requesturl: http://183.232.177.4:36083/hls/name.m3u8
+  #requesturl: http://19.67.159.2:36083/hls/name.m3u8
+  #rtsp地址
+  rtspurl: rtsp://19.67.161.199:9090/dss/monitor/params?cameraid=channel&substream=1
+  #流媒体服务器地址
+  pushaddress: /usr/local/nginx/html/hls/name.m3u8
