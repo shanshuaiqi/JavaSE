@@ -21,6 +21,7 @@
 	<modules>
 		<module>auth</module>
 		<module>common</module>
+		<module>stream</module>
 	</modules>
 	<dependencies>
 		<dependency>
