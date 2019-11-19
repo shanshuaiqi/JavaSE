@@ -1,4 +1,4 @@
-package com.example.demo.javase.qccode;
+package com.example.common.javase.qccode;
 
 import com.google.zxing.*;
 import com.google.zxing.client.j2se.BufferedImageLuminanceSource;
